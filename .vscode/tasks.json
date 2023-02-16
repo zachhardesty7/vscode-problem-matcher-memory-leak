@@ -8,7 +8,7 @@
       "type": "shell",
       "command": "for i in {1..100000}; do echo \"hello world $i\"; done; while true; do sleep 1; done",
       "isBackground": true,
-      "problemMatcher": [],
+      "problemMatcher": [], // does not have to be included, crashes without it too
     },
   ],
 }
